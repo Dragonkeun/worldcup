@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: brown;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+main .main-img{
+    width:60%;
+    height:60%;
+}
+
+main .d-day{
+    font-size:120px;
+    font-family: 'GangwonEdu_OTFBoldA';
+    color:white;
+}
